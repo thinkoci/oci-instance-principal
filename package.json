@@ -1,0 +1,8 @@
+{
+  "name": "thinkoci-db",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "oracle-nosqldb": "^5.5.3"
+  }
+}

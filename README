@@ -1,0 +1,40 @@
+This project demonstrates how to connect a Node.js application to the Oracle NoSQL Database Cloud Service to perform basic table operations.
+
+📋 Prerequisites
+Oracle Cloud Infrastructure (OCI) Account.
+
+Node.js Installed: Verify using node -v and npm -v.
+
+Compartment OCID: Obtain the OCID of the compartment where you want to create the table.
+
+🚀 Getting Started
+Task 1: Install the Oracle NoSQL SDK
+You do not need to download the SDK manually from a browser. You install it using the Node Package Manager (npm).
+
+Open your terminal/command prompt.
+
+Navigate to your project folder: (eg = E:\Thinkoci_db)
+
+Run the following command:
+
+#npm install oracle-nosqldb
+
+This creates a node_modules directory containing the SDK.
+
+Task 2: Configure the Sample Application
+Download the HelloWorld.js file provided in the lab.
+
+Open HelloWorld.js in a text editor (Notepad, VS Code, etc.).
+
+Edit the Configuration: Locate the NoSQLClient section and update the placeholders:
+
+compartment: Paste your Compartment OCID.
+
+region: Enter your OCI region (e.g., us-ashburn-1 or ap-hyderabad-1).
+
+Save the file.
+
+Task 3: Execute the Application
+Run the script using Node.js:
+
+#node HelloWorld.js

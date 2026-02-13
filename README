@@ -1,5 +1,7 @@
 This project demonstrates how to connect a Node.js application to the Oracle NoSQL Database Cloud Service to perform basic table operations.
 
+Youtube link : https://www.youtube.com/watch?v=XUTQVDrLHVk
+
 📋 Prerequisites
 Oracle Cloud Infrastructure (OCI) Account.
 
@@ -36,5 +38,6 @@ Save the file.
 
 Task 3: Execute the Application
 Run the script using Node.js:
+
 
 #node HelloWorld.js
